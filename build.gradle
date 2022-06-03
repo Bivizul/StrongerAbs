@@ -4,7 +4,6 @@ buildscript {
         binding_version = '1.5.6'
         lifecycle_version = "2.4.1"
         coroutines_version = "1.6.1"
-        room_version = "2.4.2"
         retrofit_version = "2.9.0"
         okhttp_version = "4.9.3"
         coil_version = "2.1.0"
@@ -19,7 +18,7 @@ buildscript {
     dependencies {
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
         classpath 'com.google.dagger:hilt-android-gradle-plugin:2.41'
-//        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.14.0'
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.14.0'
     }
 }
 

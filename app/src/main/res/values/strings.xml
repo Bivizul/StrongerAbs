@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Stronger Abs</string>
+
+    <string name="choose_your_workout">"Choose your workout"</string>
+    <string name="workout">WORKOUT</string>
+    <string name="notifications">Notifications</string>
+    <string name="settings">Settings</string>
 </resources>
